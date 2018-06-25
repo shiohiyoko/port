@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hugo Artists Theme</title>
-    <link>https://example.org/</link>
+    <link>https://shiohiyoko.github.io/port/</link>
     <description>Recent content on Hugo Artists Theme</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    
-	<atom:link href="https://example.org/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+
+	<atom:link href="https://shiohiyoko.github.io/port/index.xml" rel="self" type="application/rss+xml" />
+
+
     <item>
       <title></title>
-      <link>https://example.org/work/proj-1/</link>
+      <link>https://shiohiyoko.github.io/port/work/proj-1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://example.org/work/proj-1/</guid>
+
+      <guid>https://shiohiyoko.github.io/port/work/proj-1/</guid>
       <description>競技内容 この年のテーマは「新大陸の開拓」でした．港からスタートし，海をわたって新大陸に砦を築く，というモチーフです．
 細かく言うと，箱を港や途中の島から回収し，新大陸でその箱をタワー型に積み上げるという方針です． 詳しくはこちら
 コンセプト この競技内容に対して，自チームは箱をロボットの中に詰めるだけ詰めて運び，積み上げる方式を取りました．
@@ -28,7 +28,7 @@
 回路のデバッグ方法
 シリアル通信
 PID制御
-自分がやったことの詳細 プログラムと回路設計 
+自分がやったことの詳細 プログラムと回路設計
 メカナムホイールを用いた走行系
 赤外線センサを用いて角材を認識し，走行系のタイヤをジャッキアップする部分
 プログラムだけ
@@ -37,13 +37,13 @@ PID制御
 感想 この時は何もかもが初めてで，うまくロボットを動かせずに初戦負けで終わりました．
 この大会で他のチームとの圧倒的な技術力の差を知ったため，その差を埋めるため，春休みに開発を進めようと決心しました．</description>
     </item>
-    
+
     <item>
       <title></title>
-      <link>https://example.org/work/proj-2/</link>
+      <link>https://shiohiyoko.github.io/port/work/proj-2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://example.org/work/proj-2/</guid>
+
+      <guid>https://shiohiyoko.github.io/port/work/proj-2/</guid>
       <description>競技内容 相手の本陣についた風船を全部割るか，相手についた風船をより多く割った方の勝利
 全国大会の動画
 コンセプト 動いている相手の風船を割るより，本陣を狙うほうが割りやすいので，猛スピードで相手の本陣まで移動し，2軸の2本のアームを使って風船を割ることにした
@@ -56,10 +56,10 @@ PID制御
 自分がやったことの詳細 クリックして詳細を表示できます
 人の腕を教示してそれをロボットにフィードバックする部分
 人の腕に腕の関節の角度を読むセンサを取り付け，その角度をロボットのアームにフィードバックして腕の操作性を上げた
-初めの頃はロボットの腕の関節が片方に4つあったため，人間の肩を2軸，肘，そして腕のひねりを計測し，操作していた 
+初めの頃はロボットの腕の関節が片方に4つあったため，人間の肩を2軸，肘，そして腕のひねりを計測し，操作していた
 作動二輪・3輪オムニの制御
 作動2輪はタイヤを2個使った走行系で，ロボットの移動速度を上げる目的で使った
-3輪オムニはオムニホイールを3つ使った全方位移動を可能にするために使った 
+3輪オムニはオムニホイールを3つ使った全方位移動を可能にするために使った
 自作マウスとロボットとの通信
 4軸のアームから2軸のアームに変更した際に自作のマウスを2個使ってアームを制御し，そこから得た値をアームの座標系に変換し，シリアル通信でデータを転送した．
 
@@ -68,22 +68,22 @@ PID制御
 
 相手ロボットと一定の距離を保つプログラム
 距離センサを3つ使って測定し，そこから得た距離により相手との距離感を保った
-動画はこちら 
+動画はこちら
 発射機構の制御
 コントローラから発射シーケンスが送られたら，発射するようにした
-動画はこちら 
+動画はこちら
 反省 あまり新しいことをやってなかった
 コントローラとロボットとの同期に時間がかかりすぎた
 感想 この年のロボットはあまり新しいことに挑戦せず，確実に動くロボットを作ったため，昨年より楽に作業が進んだ． ただ，一番大変だったのは自チームのロボットが4軸あった時のコントローラとの同期だった．
 ロボット側も，コントローラ側もセンサの初期値が毎回変動するため，そこの調整の自動化を怠ったため，時間がかかった．</description>
     </item>
-    
+
     <item>
       <title></title>
-      <link>https://example.org/work/proj-3/</link>
+      <link>https://shiohiyoko.github.io/port/work/proj-3/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://example.org/work/proj-3/</guid>
+
+      <guid>https://shiohiyoko.github.io/port/work/proj-3/</guid>
       <description>競技内容　 フィールドの中央付近に設置された大小様々なテーブルにフリスビーを投げて，より多くフリスビーを乗せる，またはテーブル全てに乗せたチームの勝利
 大会ルール説明
 コンセプト この競技ではただ乗せるだけの機能を持ったロボットでは華がないと思い，相手のフリスビーを撃ち落とすことのできるものを作ることにした．
@@ -99,6 +99,6 @@ PID制御
 感想 高専ロボコンが終わったあとの春休みに始めたため，人手とやる気があまりなかった．
 この競技のルール発表が夏休みあたりにあったため，他の大学より大幅に遅れていたこともあり，開発が間に合わず，大会出場はできなかった．</description>
     </item>
-    
+
   </channel>
 </rss>
