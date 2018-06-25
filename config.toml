@@ -1,0 +1,54 @@
+# Site settings
+baseurl = "https://example.org/"
+languageCode = "en-us"
+title = "Hugo Artists Theme"
+theme = "hugo-artists-theme"
+
+[params]
+
+	# You can use Markdown syntax for urls [text](//url.to/source) for
+	# most longer texts.
+
+	# To provide some metadata for search engines feel free to add a few
+    # information about you and your website.
+	name = "Takagi Yuya"
+	description = "Your description"
+
+	# Since this template is static, the contact form uses www.formspree.io as a
+	# proxy. The form makes a POST request to their servers to send the actual
+	# email. Visitors can send up to a 1000 emails each month for free.
+    #
+    # What you need to do for the setup?
+    #
+    # - set your email address under 'email' below
+    # - upload the generated site to your server
+    # - send a dummy email yourself to confirm your account
+    # - click the confirm link in the email from www.formspree.io
+    # - you're done. Happy mailing!
+	email = "h27i14@cc.suzuka-ct.ac.jp"
+
+
+	# Header an navigation
+	#
+	# To change the header background the 'hero-bg-jpg' at 'static/img'.
+	# Do the same with the logo ('logo.svg').
+	# But keep the original filename!
+	[params.header]
+		title = "高木 勇弥"
+		shortBio = "たかぎ　ゆうや"
+
+
+	# About section
+	#
+	# Replace the 'avatar.jpg' under 'static/img' with your own image.
+	[params.about]
+		title = "about me"
+		#bio = "**Travis specializes in making things** for human people. Most of the things he makes are [digital interfaces](//travisneilson.com/), but he also puts effort into crafting [next-level beats](//soundcloud.com/travis-neilson) and [YouTube videos](//youtube.com/user/devtipsfordesigners) about making codes happen."
+    bio = "ロボコンでメインで活動中．回路設計,プログラミング 　　言語：c++,c#,python,html．"
+
+	[params.footer]
+		copyright = "Published under the Unlicense License."
+
+	[blackfriday]
+		plainIDAnchors = true
+		hrefTargetBlank = true

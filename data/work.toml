@@ -1,0 +1,14 @@
+# Section title
+title = "Work"
+
+[[projects]]
+    name = "大江戸忍法帳"
+    folder = "proj-2"
+
+[[projects]]
+    name = "ロボット・ニューフロンティア"
+    folder = "proj-1"
+
+[[projects]]
+    name = "Landing Disk"
+    folder = "proj-3"
