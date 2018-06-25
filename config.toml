@@ -3,6 +3,7 @@ baseurl = "https://example.org/"
 languageCode = "en-us"
 title = "Hugo Artists Theme"
 theme = "hugo-artists-theme"
+publishDir = "docs"
 
 [params]
 
