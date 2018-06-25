@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "https://example.org/"
+baseurl = "https://shiohiyoko.github.io/port/"
 languageCode = "en-us"
 title = "Hugo Artists Theme"
 theme = "hugo-artists-theme"
